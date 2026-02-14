@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barbearia Estilo - Cortes Premium em Florianópolis</title>
+    <meta
+      name="description"
+      content="Barbearia premium em Florianópolis. Cortes de cabelo e barba com estilo e qualidade. Agende seu horário!"
+    />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Raleway:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- css -->
+     <link rel="stylesheet" href="./css/styles.css">
+  </head>
+  <body data-theme="dark">
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="#" class="logo">ESTILO</a>
+        <ul class="nav-menu">
+          <li><a href="#inicio">Início</a></li>
+          <li><a href="#servicos">Serviços</a></li>
+          <li><a href="#galeria">Galeria</a></li>
+          <li><a href="#depoimentos">Depoimentos</a></li>
+          <li><a href="#agendar">Agendar</a></li>
+          <li><a href="#localizacao">Localização</a></li>
+          <li><a href="#agendar" class="cta-button">Agendar Agora</a></li>
+        </ul>
+        <button class="theme-toggle" aria-label="Alternar tema">
+          <svg
+            id="theme-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+        </button>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div class="hero-content">
+        <h1>Cortes e Barbas com Estilo</h1>
+        <p>Ambiente premium em Florianópolis – Agende seu horário</p>
+        <a href="#agendar" class="cta-button">Agendar Horário</a>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="servicos">
+      <h2 class="section-title">Nossos Serviços</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-image">
+            <img
+              src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=600&q=80"
+              alt="Corte de Cabelo"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-content">
+            <h3>Cabelo</h3>
+            <div class="service-price">R$ 50,00</div>
+            <p class="service-description">
+              Corte moderno e personalizado com acabamento impecável
+            </p>
+            <a href="#agendar" class="cta-button">Agendar</a>
+          </div>
+        </div>
+
+        <div class="service-card featured">
+          <div class="service-image">
+            <img
+              src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=600&q=80"
+              alt="Combo Completo"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-content">
+            <h3>Combo Completo</h3>
+            <div class="service-price">R$ 80,00</div>
+            <p class="service-description">
+              Cabelo + Barba - O melhor custo-benefício para você
+            </p>
+            <a href="#agendar" class="cta-button">Agendar</a>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image">
+            <img
+              src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=600&q=80"
+              alt="Barba"
+              loading="lazy"
+            />
+          </div>
+          <div class="service-content">
+            <h3>Barba</h3>
+            <div class="service-price">R$ 35,00</div>
+            <p class="service-description">
+              Aparar e finalização profissional da sua barba
+            </p>
+            <a href="#agendar" class="cta-button">Agendar</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="galeria">
+      <h2 class="section-title">Galeria</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=600&q=80"
+            alt="Corte de cabelo masculino"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?w=600&q=80"
+            alt="Barba sendo aparada"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1620331311520-246422fd82f9?w=600&q=80"
+            alt="Ambiente da barbearia"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=600&q=80"
+            alt="Corte finalizado"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1621607512214-68297480165e?w=600&q=80"
+            alt="Tesoura e pente profissional"
+            loading="lazy"
+          />
+        </div>
+        <div class="gallery-item">
+          <img
+            src="https://images.unsplash.com/photo-1542345812-d98b5cd6cf98?w=600&q=80"
+            alt="Cadeira de barbeiro"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="depoimentos">
+      <h2 class="section-title">O que dizem nossos clientes</h2>
+      <div class="testimonials-grid">
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">R</div>
+            <div class="testimonial-info">
+              <h4>Rafael Silva</h4>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+          <p class="testimonial-text">
+            "Excelente atendimento e ambiente muito aconchegante. O corte ficou
+            perfeito, exatamente como eu queria. Super recomendo!"
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">M</div>
+            <div class="testimonial-info">
+              <h4>Marcelo Costa</h4>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+          <p class="testimonial-text">
+            "Melhor barbearia de Florianópolis! Profissionais capacitados e
+            ambiente premium. Virei cliente fiel!"
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">L</div>
+            <div class="testimonial-info">
+              <h4>Lucas Oliveira</h4>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+          <p class="testimonial-text">
+            "Atendimento impecável do início ao fim. O combo de cabelo e barba é
+            sensacional, vale muito a pena!"
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">P</div>
+            <div class="testimonial-info">
+              <h4>Pedro Santos</h4>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+          <p class="testimonial-text">
+            "Profissionalismo e qualidade em cada detalhe. A equipe é muito
+            atenciosa e o resultado sempre surpreende!"
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">G</div>
+            <div class="testimonial-info">
+              <h4>Gustavo Almeida</h4>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+          <p class="testimonial-text">
+            "Ambiente diferenciado e atendimento nota 10. Já indiquei para
+            vários amigos e todos adoraram!"
+          </p>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-header">
+            <div class="testimonial-avatar">F</div>
+            <div class="testimonial-info">
+              <h4>Felipe Rocha</h4>
+              <div class="stars">★★★★★</div>
+            </div>
+          </div>
+          <p class="testimonial-text">
+            "Melhor experiência que já tive em barbearia. Preço justo, qualidade
+            excepcional e atendimento personalizado!"
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- BOOKING FORM -->
+    <section id="agendar" class="booking-section">
+      <h2 class="section-title">Agende seu Horário</h2>
+      <form class="booking-form" id="bookingForm">
+        <div class="form-group">
+          <label for="nome">Nome Completo *</label>
+          <input type="text" id="nome" name="nome" required />
+        </div>
+
+        <div class="form-group">
+          <label for="whatsapp">WhatsApp *</label>
+          <input
+            type="tel"
+            id="whatsapp"
+            name="whatsapp"
+            placeholder="(48) 99999-9999"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="servico">Serviço *</label>
+          <select id="servico" name="servico" required>
+            <option value="">Selecione o serviço</option>
+            <option value="Cabelo - R$ 50,00">Cabelo - R$ 50,00</option>
+            <option value="Barba - R$ 35,00">Barba - R$ 35,00</option>
+            <option value="Combo Cabelo + Barba - R$ 80,00">
+              Combo Cabelo + Barba - R$ 80,00
+            </option>
+          </select>
+        </div>
+
+        <div class="form-group-row">
+          <div class="form-group">
+            <label for="data">Data *</label>
+            <input type="date" id="data" name="data" required />
+          </div>
+
+          <div class="form-group">
+            <label for="horario">Horário *</label>
+            <select id="horario" name="horario" required>
+              <option value="">Selecione</option>
+              <option value="09:00">09:00</option>
+              <option value="10:00">10:00</option>
+              <option value="11:00">11:00</option>
+              <option value="13:00">13:00</option>
+              <option value="14:00">14:00</option>
+              <option value="15:00">15:00</option>
+              <option value="16:00">16:00</option>
+              <option value="17:00">17:00</option>
+              <option value="18:00">18:00</option>
+            </select>
+          </div>
+        </div>
+
+        <button type="submit" class="submit-button">
+          Confirmar Agendamento
+        </button>
+
+        <div class="form-message" id="formMessage"></div>
+      </form>
+    </section>
+
+    <!-- TEAM -->
+    <section id="equipe">
+      <h2 class="section-title">Nossa Equipe</h2>
+      <div class="team-grid">
+        <div class="team-member">
+          <div class="team-photo">
+            <img
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80"
+              alt="João Silva"
+              loading="lazy"
+            />
+          </div>
+          <h3>João Silva</h3>
+          <p class="team-role">Barbeiro Chefe</p>
+        </div>
+
+        <div class="team-member">
+          <div class="team-photo">
+            <img
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80"
+              alt="Carlos Mendes"
+              loading="lazy"
+            />
+          </div>
+          <h3>Carlos Mendes</h3>
+          <p class="team-role">Barbeiro Especialista</p>
+        </div>
+
+        <div class="team-member">
+          <div class="team-photo">
+            <img
+              src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&q=80"
+              alt="Bruno Costa"
+              loading="lazy"
+            />
+          </div>
+          <h3>Bruno Costa</h3>
+          <p class="team-role">Barbeiro Profissional</p>
+        </div>
+
+        <div class="team-member">
+          <div class="team-photo">
+            <img
+              src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&q=80"
+              alt="André Santos"
+              loading="lazy"
+            />
+          </div>
+          <h3>André Santos</h3>
+          <p class="team-role">Barbeiro Sênior</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATION -->
+    <section id="localizacao">
+      <h2 class="section-title">Onde Estamos</h2>
+      <div class="location-content">
+        <div class="location-info">
+          <h3>Visite-nos</h3>
+
+          <div class="info-item">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"
+                />
+              </svg>
+            </div>
+            <div class="info-text">
+              <strong>Endereço</strong>
+              Rua Felipe Schmidt, 515 - Centro<br />
+              Florianópolis/SC - CEP 88010-001
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm6 14h-7v-8h2v6h5v2z"
+                />
+              </svg>
+            </div>
+            <div class="info-text">
+              <strong>Horário de Funcionamento</strong>
+              Segunda a Sexta: 09:00 - 19:00<br />
+              Sábado: 09:00 - 17:00<br />
+              Domingo: Fechado
+            </div>
+          </div>
+
+          <div class="info-item">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <path
+                  d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"
+                />
+              </svg>
+            </div>
+            <div class="info-text">
+              <strong>Contato</strong>
+              <a href="tel:+5548999999999">(48) 99999-9999</a><br />
+              <a
+                href="/cdn-cgi/l/email-protection#10737f7e6471647f50727162727571627971756364797c7f3e737f7d"
+                ><span
+                  class="__cf_email__"
+                  data-cfemail="0c6f6362786d78634c6e6d7e6e696d7e656d697f78656063226f6361"
+                  >[email&#160;protected]</span
+                ></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3535.856843866774!2d-48.551688!3d-27.5969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjfCsDM1JzQ4LjgiUyA0OMKwMzMnMDYuMSJX!5e0!3m2!1spt-BR!2sbr!4v1234567890"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-content">
+        <div class="social-links">
+          <a
+            href="https://instagram.com/barbeariaestilo"
+            target="_blank"
+            aria-label="Instagram"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"
+              />
+            </svg>
+          </a>
+          <a
+            href="https://wa.me/5548999999999"
+            target="_blank"
+            aria-label="WhatsApp"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path
+                d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+              />
+            </svg>
+          </a>
+        </div>
+
+        <div class="footer-info">
+          <p>Rua Felipe Schmidt, 515 - Centro, Florianópolis/SC</p>
+          <p>
+            <a
+              href="tel:+5548999999999"
+              style="color: var(--gold); text-decoration: none"
+              >(48) 99999-9999</a
+            >
+          </p>
+        </div>
+
+        <p class="copyright">
+          © 2026 Barbearia Estilo - Florianópolis/SC. Todos os direitos
+          reservados.
+        </p>
+      </div>
+    </footer>
+
+    <!-- WHATSAPP FLOAT BUTTON -->
+    <a
+      href="https://wa.me/5548999999999?text=Olá! Gostaria de agendar um horário."
+      class="whatsapp-float"
+      target="_blank"
+      aria-label="WhatsApp"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path
+          d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+        />
+      </svg>
+    </a>
+
+    <!-- js -->
+    <script src="./js/script.js"></script>
+  </body>
+</html>
